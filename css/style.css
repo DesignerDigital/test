@@ -1,0 +1,99 @@
+@charset "utf-8";
+@font-face{
+    font-family: 'droid font';
+    src: url("../fontes/idroid.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Arial",'sans-serif';
+}
+header{
+    background-image: linear-gradient(to top, rgb(28,72,45), rgb(49,222,135));
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.89);
+    text-align: center;
+    box-shadow: 2px 2px 9px rgb(66, 66, 66);
+}
+
+header > h1 {
+    padding: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #505050;
+}
+
+header > p{
+    padding: 20px;
+    width: 500px;
+    margin:auto;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.65);
+
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.89);
+    font-weight: bold;
+margin-left: 15px;
+}
+
+.font-droid{
+    font-family: "droid font",'Arial Black', sans-serif;
+    color: #205D3B;
+}
+
+main{
+    background-color: #84E0AD;
+}
+section{
+    min-width: 400px;
+    max-width: 850px;
+    margin: auto;
+    padding: 20px;
+}
+
+#video{
+    background-color: #1A5C38;
+}
+
+.youtube{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+section > p{
+    text-indent: 25px;
+    padding: 20px 0;
+    text-align: justify;
+    font-weight: bold;
+}
+
+section > h2{
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, #C4ECD4, white);
+    padding: 0px 9px;
+}
+
+.img-picture{
+    text-align: center;
+}
+
+.green{
+    color: #205D3B;
+    font-weight: bold;
+}
+.history{
+    background-color: white;
+    box-shadow: 2px 2px 9px rgb(66, 66, 66);
+
+}
+
